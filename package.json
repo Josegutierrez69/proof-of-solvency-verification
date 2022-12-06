@@ -1,0 +1,12 @@
+{
+  "name": "proof-of-solvency-verification",
+  "version": "0.0.1",
+  "description": "Bitso: The Proof that Matters",
+  "repository": "https://github.com/bitsoex/proof-of-solvency-verification",
+  "bugs": "https://github.com/bitsoex/proof-of-solvency-verification",
+  "dependencies": {
+    "merkletreejs": "0.3.9",
+    "crypto-js": "4.1.1"
+  },
+  "license": "MIT"
+}
