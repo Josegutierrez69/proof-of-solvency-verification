@@ -25,8 +25,8 @@ e.g. `node ./merkle-tree-verify.js ./example-merkle-tree.tsv e17e7edf6faa1a6a`
 ### Generate your Merkle Leaf Hash
 
 If you would like to generate your Merkle Leaf Hash yourself, Bitso's Proof of Solvency page displays your balance for
-each currency at the time the snapshot was taken. Use the balances with trailing zeroes and your Account Code as input
-to the following command.
+each currency at the time the snapshot was taken. Use the balances and your Account Code as input to the following
+command.
 
 `node merkle-tree-calculate-leaf-hash.js <My Account Code> <Currency A Code>=<Currency A Balance> <Currency B Code>=<Currency B Balance> ...`
 
