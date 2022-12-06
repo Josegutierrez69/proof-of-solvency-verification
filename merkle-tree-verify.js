@@ -20,7 +20,7 @@ function bufferToString(value) {
 
 let isMatched = false;
 rd.on('line', function (line) {
-    if (!line || line === "Level\tHash" || line[0] === '#') {
+    if (!line || line === 'Level\tHash' || line[0] === '#') {
         return;
     }
     let [pos, hash] = line.match(/[^\s]+/g);
@@ -28,7 +28,7 @@ rd.on('line', function (line) {
         console.log('Successful! Found your Merkle Leaf Hash at level and position:', pos);
         isMatched = true;
     }
-    leaves.push(hash)
+    leaves.push(hash);
 });
 
 rd.on('close', function () {
