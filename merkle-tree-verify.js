@@ -18,7 +18,7 @@ function bufferToString(value) {
     return value.toString('hex');
 }
 
-let is_matched = false;
+let isMatched = false;
 rd.on('line', function (line) {
     if (!line || line === "Level\tHash" || line[0] === '#') {
         return;
@@ -26,13 +26,13 @@ rd.on('line', function (line) {
     let [pos, hash] = line.match(/[^\s]+/g);
     if (checkHash === hash) {
         console.log('Successful! Found your Merkle Leaf Hash at level and position:', pos);
-        is_matched = true;
+        isMatched = true;
     }
     leaves.push(hash)
 });
 
 rd.on('close', function () {
-    if (!is_matched) {
+    if (!isMatched) {
         console.log('Could not find your Merkle Leaf Hash in the Merkle Tree');
     }
     console.log('Merkle root hash is being generated...');
