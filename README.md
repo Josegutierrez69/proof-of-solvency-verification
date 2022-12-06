@@ -9,7 +9,7 @@ shape? Learn more about the Proof that Matters [here](https://blog.bitso.com/bit
 
 First, execute the following preparation steps.
 
-1. Download and install a LTS version of NodeJS from the (official website)[https://nodejs.org/en/].
+1. Download and install a LTS version of NodeJS from the [official website](https://nodejs.org/en/).
 2. Head to the terminal and access the folder of this project.
 3. Run `npm install`.
 
