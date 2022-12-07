@@ -1,9 +1,12 @@
 # proof-of-solvency-verification
 
-Proof of Funds, Proof of Reserves, Proof of Solvency? There’s a good chance you’ve seen these concepts floating around
-in your social media and news feeds. But, do you know what any of these terms stand for? Do you know whether any of
-these terms actually ‘prove’ that a crypto exchange, a bank, or any other company or institution is in good financial
-shape? Learn more about the Proof that Matters [here](https://blog.bitso.com/bitso/the-proof-that-matters).
+Bitso is moving toward a definitive Proof of Solvency that can provide transparency and security to users without ever
+putting at risk their privacy. But since the final solution takes time to be implemented, we’re releasing one step at
+the time. The first step, then, is the release of a Merkle Tree where users can verify manually that their balances were
+properly accounted for in Bitso’s liabilities. To learn how to perform this verification, read the tutorial below.
+
+If you want to learn more about the definitive Proof of Solvency, and about Bitso’s roadmap to achieve it, you can read
+it in [here](https://blog.bitso.com/bitso/the-proof-that-matters).
 
 ## How to run it
 
